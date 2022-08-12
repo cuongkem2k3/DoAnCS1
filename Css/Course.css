@@ -1,0 +1,154 @@
+/* Navbar */
+
+.Nav .Nav__Img {
+    width: 100%;
+}
+
+.Navbar {
+    padding: 20px 30px;
+    display: flex;
+    font-family: 'Nunito', sans-serif;
+}
+
+.Navbar a {
+    text-decoration: none;
+    color: rgb(110, 103, 103);
+}
+
+.Navbar ul li {
+    color: rgb(110, 103, 103);
+}
+
+.Navbar a:hover {
+    color: #ffb606;
+}
+
+hr {
+    display: inline-block;
+    background-image: linear-gradient(to right, orange, red);
+    border: 0;
+    opacity: .25;
+    margin-left: 5%;
+}
+
+hr:not([size]) {
+    height: 1px;
+}
+
+
+/* Title */
+
+.Title {
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    font-family: 'Nunito', sans-serif;
+    padding: 20px 0px;
+}
+
+.Title p {
+    font-size: 25px;
+    color: brown;
+}
+
+.Title span {
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 90px;
+}
+
+
+/* Body */
+
+.Body {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.Body--Edit .Body__Grid {
+    width: 267px;
+    border: 2px solid #ee7a36;
+    height: 430px;
+    padding: 1.25em;
+    position: relative;
+    text-align: center;
+    transition: all .2s ease-in-out;
+    margin-bottom: 20px;
+    transition-duration: .5s;
+}
+
+.Body--Edit .Body__Grid p {
+    font-size: 20px;
+    margin: 0 0 0.5em;
+    font-family: 'Nutino', sans-serif;
+    color: #212021;
+}
+
+.Body--Edit .Body__Upper {
+    font-size: 35px;
+    color: rgb(183, 28, 28);
+    font-family: 'Nutino', sans-serif;
+}
+
+.Body--Edit .Body__Grid .text {
+    font-size: 27px;
+    color: black;
+}
+
+.Body--Edit .Body__Grid .small {
+    font-size: 20px;
+}
+
+.Body--Edit .Body__ul {
+    color: #48404d;
+    list-style-type: none;
+    padding: 0;
+    margin: 1.5em 0;
+}
+
+.Body--Edit .Body__ul li {
+    margin: 0 0 0.8em;
+    font-size: 18px;
+    font-family: 'Nutino', sans-serif;
+}
+
+.Body--Edit .button {
+    text-decoration: none;
+    background-color: #9c83aa;
+    border-radius: 20px;
+    color: #fff;
+    font-weight: 600;
+    padding: 1em 1.5em;
+    position: absolute;
+    bottom: 2em;
+    margin-left: -60px;
+    text-decoration: none;
+    width: 130px;
+    text-transform: uppercase;
+    font-family: 'Nutino', sans-serif;
+    line-height: 23px;
+}
+
+.Body--Edit .button:hover {
+    background-color: #ef874b;
+}
+
+.Body--Edit .Body__Grid:hover {
+    background-image: linear-gradient(to bottom, #e8edd2 0%, rgb(243, 243, 19) 100%);
+    border-top: 2px solid #ec7a37;
+    border-bottom: 2px solid #ff4f69;
+    box-shadow: 0px 0px 10px 0px #323232;
+    transform: scale(1.025);
+    z-index: 2;
+    color: white;
+}
+
+.Body--Edit .Body__Grid:hover::after {
+    content: "";
+    position: absolute;
+    background-color: #f67d35;
+}

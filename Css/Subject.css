@@ -1,0 +1,108 @@
+.Body {
+    padding: 40px;
+    margin: auto;
+    width: 1050px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.Body h3 {
+    font-size: 27px;
+    font-weight: bold;
+    color: red;
+}
+
+.Body h3 span {
+    font-size: 18px;
+    color: black;
+}
+
+.Body__Content {
+    display: flex;
+    flex-flow: row wrap;
+    border-radius: 20px;
+    margin-top: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 5, .2);
+}
+
+.Body__Content .Body_Gs {
+    padding: 30px;
+    width: 800px;
+}
+
+.Body__Content .Body_Gs .Gs1 {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+.Body__Content .Body_Gs .Gs2 {
+    float: right;
+}
+
+.Body__Content div:first-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+}
+
+.Body__Content .Gs1_p {
+    padding-bottom: 20px;
+    font-size: 15px;
+}
+
+.Body__Content div:nth-child(2) {
+    border-left: 1px solid #D8D8D8;
+}
+
+.Body_IMG {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.Body__Content p input {
+    margin-top: 30px;
+    width: 200px;
+    font-size: 18px;
+    margin-right: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.Body__Content input:first-child {
+    border: none;
+    color: #fff;
+    background-color: #47d864;
+    padding: 10px 0;
+}
+
+.Body__Content input:first-child:hover {
+    opacity: 0.8;
+}
+
+.Body__Content input:nth-child(2) {
+    background: #2f86eb;
+    color: white;
+    border: none;
+}
+
+.Body__Content input:nth-child(2):hover {
+    opacity: 0.8;
+}
+
+.Body__Content input:nth-child(3) {
+    background: #FE642E;
+    color: white;
+    border: none;
+}
+
+.Body__Content input:nth-child(3):hover {
+    opacity: 0.8;
+}
+
+.Body__Content p {
+    display: flex;
+    flex-flow: row wrap;
+}

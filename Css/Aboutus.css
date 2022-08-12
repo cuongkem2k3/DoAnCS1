@@ -1,0 +1,82 @@
+/* Body */
+
+.Body .Body__IMG {
+    width: 100%;
+}
+
+.Navbar {
+    padding: 20px 30px;
+    display: flex;
+    font-family: 'Nunito', sans-serif;
+}
+
+.Navbar a {
+    text-decoration: none;
+    color: rgb(110, 103, 103);
+}
+
+.Navbar ul li {
+    color: rgb(110, 103, 103);
+}
+
+.Navbar a:hover {
+    color: #ffb606;
+}
+
+hr {
+    display: inline-block;
+    background-image: linear-gradient(to right, orange, red);
+    border: 0;
+    opacity: .25;
+    margin-left: 5%;
+}
+
+hr:not([size]) {
+    height: 1px;
+}
+
+.Body__Content {
+    font-family: 'Nunito', sans-serif;
+    margin-left: 40px;
+    margin-top: 15px;
+}
+
+.Body_mission1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Body__Content .Body_mission1 p {
+    font-size: 20px;
+    color: brown;
+}
+
+.Body__Content .Body_mission1 span {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.Body__Content .Content_Img {
+    width: 500px;
+    margin-right: 20px;
+}
+
+.Body__Content .Body__text {
+    width: 50%;
+}
+
+.Body_mission2 {
+    width: 98%;
+    margin-bottom: 30px;
+}
+
+.Body__Content .Body_mission2 p {
+    font-size: 20px;
+    color: brown;
+}
+
+.Body__Content .Body_mission2 span {
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 90px;
+}

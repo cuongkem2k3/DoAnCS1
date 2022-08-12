@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gia sư - Checkout</title>
+    <link rel="shortcut icon" type="image/png" href="Img/favicon.png" />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="Css/main.css">
+    <link rel="stylesheet" href="Css/Register.css">
+    <link rel="stylesheet" href="Css/toast.css">
+</head>
+
+<body>
+    <!-- Loading -->
+    <div class="loader"></div>
+    <script src="Loading.js"></script>
+
+    <!-- Header -->
+    <div class="Header">
+        <div class="toast-custom">
+            <a href="Index.html"><img src="Img/GS-ONLINE.png" alt="" height="100px"></a>
+            <ul class="toast__text">
+                <li><a href="Index.html">Trang chủ</a></li>
+                <li><a href="Course.html">Các khóa học</a></li>
+                <li><a href="Aboutus.html">Về chúng tôi</a></li>
+                <li><a href="Contact.html">Liên hệ</a></li>
+                <li><a href="Login.html">Đăng nhập</a></li>
+            </ul>
+            <img src="Img/logo-3.png" alt="" height="100px" class="toast__img">
+        </div>
+    </div>
+
+    <!-- Navbar -->
+    <div class="Nav">
+        <img src="Img/checkout.png" alt="" class="Nav__Img">
+    </div>
+
+    <div class="Navbar">
+        <a href="Index.html">Trang chủ</a>
+        <ul>
+            <li>Checkout</li>
+        </ul>
+    </div>
+
+    <hr width="90%">
+
+    <!-- Body -->
+
+    <div class="Body">
+        <div class="Body_checkout">
+            <a href=""><strong>Đăng ký khóa học &#187;</strong></a><span> Xác nhận & thanh toán</span>
+            <div>
+                <h1>Đăng ký khóa học</h1>
+                <form class="Body_Form">
+                    <div>
+                        <label><strong>Họ và tên <span class="Body_SP">*</span></strong></label>
+                        <input type="text" class="Body_Input" name="" placeholder="Họ và tên" required>
+                    </div>
+                    <div>
+                        <label><strong>Địa chỉ Email <span class="Body_SP">*</span></strong></label>
+                        <input type="email" class="Body_Input" placeholder="Email" required>
+                    </div>
+                    <div>
+                        <label><strong>Số điện thoại <span class="Body_SP">*</span></strong></label>
+                        <input type="text" class="Body_Input" id="phone" placeholder="Số điện thoại" required>
+                    </div>
+                    <div>
+                        <label><strong>Giới tính <span class="Body_SP">*</span></strong></label>
+                        <select class="Body_Input">
+							<option>Giới tính</option>
+							<option>Nam</option>
+							<option>Nữ</option>
+						</select>
+                    </div>
+                    <div>
+                        <label>Ngày sinh <span class="Body_SP">*</span></label>
+                        <input type="date" class="Body_Input" placeholder="Ngày sinh" required/>
+                    </div>
+                    <div>
+                        <label><strong>Khóa học <span class="Body_SP">*</span></strong></label>
+                        <select class="Body_Input">
+							<option>Khóa học</option>
+							<option>Tự Nhiên</option>
+                            <option>Xã Hội</option>
+							<option>Năng Khiếu</option>
+                            <option>Tin Học VP</option>
+							<option>Tin Học</option>
+                            <option>Ngoại Ngữ</option>
+							<option>Lập Trình</option>
+                            <option>Thiết Kế</option>
+						</select>
+                    </div>
+                    <div>
+                        <label><strong>Thời gian học <span class="Body_SP">*</span></strong></label>
+                        <select class="Body_Input">
+							<option>Thứ hai, Thứ tư, Thứ sáu - Từ 19h30 đến 22h30</option>
+							<option>Thứ ba, Thứ năm, Thứ bảy - Từ 19h30 đến 22h30</option>
+						</select>
+                    </div>
+                    <div>
+                        <label><strong>Lời nhắn <span class="Body_SP">*</span></strong></label>
+                        <textarea class="Body_Input" style="height: 70px;" placeholder="Lời nhắn"></textarea>
+                    </div>
+                    <div>
+                        <input type="submit" class="Body_Input" id="submit_btn" onclick="showDialog()" value="Đăng ký">
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="Body_checkout2" style="display: flex; flex-flow: column;">
+            <div>
+                <h3>Phương thức thanh toán</h3>
+            </div>
+            <div>
+                <input type="radio" name="Body_Radio">
+                <strong>Thanh toán bằng Ví MoMo (Không mất phí thanh toán) - Thông tin người nhận</strong>
+            </div>
+            <div>
+                <input type="radio" name="Body_Radio">
+                <strong>Thanh toán qua Ví ZaloPay (Không mất phí thanh toán)</strong>
+            </div>
+            <div>
+                <input type="radio" name="Body_Radio">
+                <strong>Thanh toán qua Mobile Banking (Phí thanh toán là 500đ)</strong>
+            </div>
+            <div>
+                <input type="radio" name="Body_Radio">
+                <strong>Đổi thẻ</strong>
+            </div>
+            <div>
+                <img src="Img/momo.jpg" class="Body_IMG">
+                <img src="Img/ZaloPay.jpg" class="Body_IMG">
+            </div>
+            <div>
+                <img src="Img/nganhang.png" class="Body_IMG">
+                <img src="Img/thenh.jpg" class="Body_IMG">
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="Footer Footer--Edit">
+        <div class="Ft__List">
+            <div class="Ft__Contact">
+                <p><strong>GS Gia sư</strong></p>
+                <p>- Website giáo dục nền tảng công nghệ 4.0</p>
+                <p>- Mang tới sự trải nghiệm, giúp việc học trở nên dễ dàng hơn.</p>
+                <p>- Nâng cao tri thức.</p>
+            </div>
+            <div class="Ft__Contact">
+                <p><strong>Liên hệ</strong></p>
+                <p>Admin: cuongkem</p>
+                <p>Email: cuongth.21it@vku.udn.vn</p>
+                <p>Hotline: 0326912787</p>
+                <p>Support: giang</p>
+                <p>Email: gianglc.21it@vku.udn.vn</p>
+            </div>
+            <div class="Ft__Contact">
+                <p><strong>Ứng dụng</strong></p>
+                <p><a href="#">Tìm kiếm gia sư</a></p>
+                <p><a href="#">Tìm kiếm lớp học</a></p>
+                <p><a href="#">Trở thành gia sư</a></p>
+                <p><a href="#">Đăng kí lớp học</a></p>
+                <p><a href="#">Ứng tuyển</a></p>
+            </div>
+            <div class="Ft__Contact">
+                <p><strong>Page GS Gia Sư</strong></p>
+                <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FGS-Gia-S%25C6%25B0-103831912351754&tabs&width=340&height=130&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340"
+                    height="130" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+            </div>
+        </div>
+        <div class="Ft__License"><small>&copy; Bản quyền <a href="https://www.facebook.com/profile.php?id=100015521263576">YIAN203</a></small></div>
+    </div>
+    <div id="toast"></div>
+    <script src="/Html/Contact.js"></script>
+    <script>
+        function showDialog() {
+            toast({
+                title: 'Đăng ký thành công !',
+                message: 'Cảm ơn bạn đã tin dùng GS Gia Sư !',
+                type: 'success',
+                duration: 5000
+            });
+        }
+        document.querySelector('#submit_btn').addEventListener("click", function(event) {
+            event.preventDefault()
+        });
+    </script>
+</body>
+
+</html>

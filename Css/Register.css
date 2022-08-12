@@ -1,0 +1,128 @@
+.Nav {
+    width: 100%;
+}
+
+.Navbar {
+    padding: 20px 30px;
+    display: flex;
+    font-family: 'Nunito', sans-serif;
+}
+
+.Navbar a {
+    text-decoration: none;
+    color: rgb(110, 103, 103);
+}
+
+.Navbar ul li {
+    color: rgb(110, 103, 103);
+}
+
+.Navbar a:hover {
+    color: #ffb606;
+}
+
+hr {
+    display: inline-block;
+    background-image: linear-gradient(to right, orange, red);
+    border: 0;
+    opacity: .25;
+    margin-left: 5%;
+}
+
+hr:not([size]) {
+    height: 1px;
+}
+
+
+/* Body */
+
+.Body {
+    display: flex;
+    margin: 30px;
+    padding: 10px;
+    background-color: #FAFAFA;
+    border-radius: 15px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.Body div:last-child {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.Body_checkout h1 {
+    color: red;
+    margin-top: 15px;
+}
+
+.Body_checkout {
+    width: 600px;
+    padding: 15px;
+    border: 1px solid #BDBDBD;
+    border-radius: 15px;
+}
+
+.Body a {
+    text-decoration: none;
+    color: black;
+}
+
+.Body_checkout .Body_Form div {
+    margin-top: 15px;
+}
+
+.Body_checkout .Body_Form .Body_Input {
+    width: 550px;
+    height: 35px;
+    font-family: 'Nunito', sans-serif;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    padding: 4px 10px;
+    font-size: 15px;
+}
+
+.Body_checkout .Body_Form .Body_SP {
+    color: red;
+}
+
+.Body_checkout .Body_Form input[type=submit] {
+    width: 200px;
+    height: 40px;
+    margin: auto;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.Body_checkout .Body_Form input[type=submit]:hover {
+    background-color: rgb(231, 6, 6);
+}
+
+.Body_checkout .Body_Form div:first-child {
+    margin-right: 30px;
+}
+
+.Body_checkout2 {
+    padding: 20px;
+    color: brown;
+}
+
+.Body_checkout2 h3 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.Body_checkout2 input[type=radio] {
+    margin-top: 5px;
+}
+
+.Body_checkout2 div {
+    margin-top: 10px;
+}
+
+.Body_IMG {
+    width: 300px;
+    border-radius: 5px;
+    margin: 5px 1px;
+}

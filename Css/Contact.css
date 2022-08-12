@@ -1,0 +1,138 @@
+.Body__Header .Body__IMG {
+    width: 100%;
+}
+
+.Navbar {
+    padding: 20px 30px;
+    display: flex;
+    font-family: 'Nunito', sans-serif;
+}
+
+.Navbar a {
+    text-decoration: none;
+    color: rgb(110, 103, 103);
+}
+
+.Navbar ul li {
+    color: rgb(110, 103, 103);
+}
+
+.Navbar a:hover {
+    color: #ffb606;
+}
+
+hr {
+    display: inline-block;
+    background-image: linear-gradient(to right, orange, red);
+    border: 0;
+    opacity: .25;
+    margin-left: 5%;
+}
+
+hr:not([size]) {
+    height: 1px;
+}
+
+.Title {
+    display: flex;
+    width: 80%;
+    padding-top: 50px;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.Title1 p {
+    font-size: 35px;
+    font-family: 'Nunito', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.Title1 span {
+    font-size: 15px;
+    font-family: 'Nunito', sans-serif;
+    color: rgb(125, 120, 120);
+    line-height: 30px;
+}
+
+.Body {
+    margin-top: 50px;
+    height: 500px;
+}
+
+.Body__Screen {
+    width: 560px;
+    height: 455px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, .4);
+    display: flex;
+    border-radius: 30px;
+    margin: auto;
+    margin-top: 50px;
+    justify-content: space-around;
+}
+
+.Body__Screen .Screen__item1 {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    line-height: 25px;
+}
+
+.Body__Screen .Screen_title {
+    font-family: 'Nunito', sans-serif;
+    color: #ea1d6f;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 35px;
+}
+
+.Body__Screen .Screen_contact {
+    font-family: 'Nunito', sans-serif;
+    margin-top: auto;
+    font-size: 14px;
+    color: rgb(187, 36, 91);
+}
+
+.Body__Screen .Screen__item2 {
+    flex: 1;
+    padding: 50px;
+}
+
+.Body__Screen .App_form_group {
+    margin-bottom: 15px;
+    max-height: 40px;
+    min-width: 200px;
+}
+
+.Body__Screen .Screen__item2 .App_form_control {
+    width: 100%;
+    padding: 10px 0;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #666;
+    color: black;
+    font-size: 14px;
+    text-transform: uppercase;
+    outline: none;
+    font-family: 'Nunito', sans-serif;
+}
+
+.Body__Screen .buttons {
+    margin-top: 120px;
+    text-align: right;
+}
+
+.Body__Screen .App_form_button {
+    background: none;
+    border: none;
+    color: #ea1d6f;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+}
+
+.Body__Screen .App_form_button:hover {
+    font-size: 19px;
+    opacity: 0.8;
+}

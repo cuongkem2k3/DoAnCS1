@@ -1,0 +1,170 @@
+.Nav .Nav__IMG {
+    width: 100%;
+}
+
+.Navbar {
+    padding: 20px 30px;
+    display: flex;
+    font-family: 'Nunito', sans-serif;
+}
+
+.Navbar a {
+    text-decoration: none;
+    color: rgb(110, 103, 103);
+}
+
+.Navbar ul li {
+    color: rgb(110, 103, 103);
+}
+
+.Navbar a:hover {
+    color: #ffb606;
+}
+
+hr {
+    display: inline-block;
+    background-image: linear-gradient(to right, orange, red);
+    border: 0;
+    opacity: .25;
+    margin-left: 5%;
+}
+
+hr:not([size]) {
+    height: 1px;
+}
+
+
+/* Body */
+
+#Body_Login {
+    width: 380px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    font-family: 'Nunito', sans-serif;
+}
+
+#Body_Login h2 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#Body_Login .Login_Inp {
+    width: 100%;
+    line-height: 30px;
+    padding: 4px 20px;
+    border: 1px solid #e5e5e5;
+    color: #999;
+    margin-bottom: 20px;
+    clear: both;
+    display: block;
+    min-height: 40px;
+    border-radius: 0;
+    font-size: 15px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.Login_Inp:visited {
+    border: 1px solid #ffb606;
+}
+
+#Body_Login .Login_Button {
+    border: 0;
+    width: 100%;
+    line-height: 30px;
+    padding: 5px 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px!important;
+    background-color: #ffb606;
+    transition: .3s;
+    cursor: pointer;
+    font-family: 'Nunito', sans-serif;
+}
+
+#Body_Login .Login_Button:hover {
+    background-color: #dc9b04;
+}
+
+#Body_Login .Login_Error {
+    text-decoration: none;
+    text-align: center;
+    padding-top: 15px;
+}
+
+#Body_Login a {
+    text-decoration: none;
+    color: #dc9b04;
+}
+
+#Body_Login a:hover {
+    text-decoration: underline;
+}
+
+
+/* Dang ki */
+
+#Body_Register {
+    width: 380px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    font-family: 'Nunito', sans-serif;
+}
+
+#Body_Register h2 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#Body_Register .Login_Inp {
+    width: 100%;
+    line-height: 30px;
+    padding: 4px 20px;
+    border: 1px solid #e5e5e5;
+    color: #999;
+    margin-bottom: 20px;
+    clear: both;
+    display: block;
+    min-height: 40px;
+    border-radius: 0;
+    font-size: 15px;
+    font-family: 'Nunito', sans-serif;
+}
+
+#Body_Register .Login_Button {
+    border: 0;
+    width: 100%;
+    line-height: 30px;
+    padding: 5px 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px!important;
+    background-color: #ffb606;
+    transition: .3s;
+    cursor: pointer;
+    font-family: 'Nunito', sans-serif;
+}
+
+#Body_Register .Login_Button:hover {
+    background-color: #dc9b04;
+}
+
+#Body_Register .Login_Error {
+    text-decoration: none;
+    text-align: center;
+    padding-top: 15px;
+}
+
+#Body_Register a {
+    text-decoration: none;
+    color: #dc9b04;
+}
+
+#Body_Register a:hover {
+    text-decoration: underline;
+}
